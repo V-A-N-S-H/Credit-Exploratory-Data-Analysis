@@ -117,7 +117,7 @@ Credit-EDA/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/V-A-N-S-H/Credit-Exploratory-Data-Analysis.git
 ```
 
 ### 2. Install Required Libraries
