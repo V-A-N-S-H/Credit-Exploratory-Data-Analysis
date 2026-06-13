@@ -1,36 +1,99 @@
-# Credit EDA
-
-Exploratory Data Analysis (EDA) project focused on understanding credit application data, identifying risk patterns, handling missing values, and generating business insights through statistical analysis and data visualization.
-
----
+# Credit EDA - Exploratory Data Analysis on Credit Applications
 
 ## Overview
 
-The goal of this project is to analyze credit-related datasets and uncover factors that may influence loan approval and credit risk. The project includes data cleaning, feature engineering, missing value treatment, and visual analysis to better understand customer behavior and application trends.
+This project focuses on performing **Exploratory Data Analysis (EDA)** on credit application datasets to identify customer behavior patterns, loan risk indicators, and important financial insights.
+
+The analysis includes:
+
+* Data cleaning and preprocessing
+* Missing value handling
+* Feature engineering
+* Statistical analysis
+* Data visualization
+* Business insight generation
+
+The project helps in understanding factors that influence loan approvals and customer credit risk.
 
 ---
 
-## Features
+## Objectives
 
-- Data Cleaning and Preprocessing
-- Missing Value Analysis and Treatment
-- Univariate Analysis
-- Bivariate and Multivariate Analysis
-- Feature Engineering
-- Data Standardization and Binning
-- Statistical Analysis
-- Data Visualization and Insight Generation
+* Understand the structure and quality of credit datasets
+* Identify missing values and outliers
+* Analyze customer demographics and financial behavior
+* Discover patterns related to loan approvals and credit risk
+* Generate meaningful business insights through visual analysis
 
 ---
 
 ## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## Dataset Files
+
+The project uses the following datasets:
+
+* `application_data.csv`
+* `previous_application.csv`
+* `merged_data.csv`
+
+---
+
+## Project Workflow
+
+### 1. Data Import and Understanding
+
+* Imported datasets using Pandas
+* Explored columns, data types, and dataset structure
+* Performed initial statistical analysis
+
+### 2. Data Cleaning
+
+* Handled missing values
+* Removed inconsistencies and duplicates
+* Standardized data formats
+
+### 3. Feature Engineering
+
+* Created meaningful features
+* Performed binning and categorization
+* Applied standardization techniques
+
+### 4. Exploratory Data Analysis
+
+* Univariate Analysis
+* Bivariate Analysis
+* Multivariate Analysis
+* Correlation Analysis
+
+### 5. Data Visualization
+
+Generated visual insights using:
+
+* Bar Charts
+* Histograms
+* Count Plots
+* Heatmaps
+* Box Plots
+* Scatter Plots
+
+---
+
+## Key Insights
+
+* Identified important factors affecting credit approval
+* Analyzed customer income and employment trends
+* Observed relationships between applicant characteristics and loan outcomes
+* Detected potential risk indicators for credit applications
 
 ---
 
@@ -39,83 +102,61 @@ The goal of this project is to analyze credit-related datasets and uncover facto
 ```text
 Credit-EDA/
 │
-├── 1_Data_Importing_and_Analysis.ipynb
-├── 2_Data_Processing_and_Visualizing.ipynb
-├── 3_Handling_Missing_Values.ipynb
-├── 4_Binning_and_Standardizing.ipynb
-├── 5_Univariate_Analysis.ipynb
-├── 6_Bivariate_and_Multivariate_Analysis.ipynb
-├── 7_Previous_Application_Analysis.ipynb
-│
-└── README.md
+├── main.ipynb
+├── application_data.csv
+├── previous_application.csv
+├── merged_data.csv
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## Analysis Performed
+## How to Run the Project
 
-### Data Import and Exploration
-- Loaded and examined credit application datasets.
-- Analyzed dataset structure, features, and data types.
-
-### Data Cleaning
-- Identified missing values and inconsistencies.
-- Applied appropriate preprocessing techniques.
-
-### Feature Engineering
-- Created meaningful features for improved analysis.
-- Performed binning and standardization where necessary.
-
-### Exploratory Data Analysis
-- Conducted univariate analysis to understand individual variables.
-- Performed bivariate and multivariate analysis to identify relationships between features.
-
-### Data Visualization
-- Created charts and plots to highlight trends and patterns.
-- Generated insights related to customer demographics, credit history, and loan applications.
-
----
-
-## Key Insights
-
-- Identified important factors influencing credit applications.
-- Analyzed customer behavior patterns and risk indicators.
-- Discovered relationships between applicant characteristics and loan outcomes.
-- Generated business insights to support credit risk assessment.
-
----
-
-## How to Run
-
-1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone <repository-url>
 ```
 
-2. Install required libraries
+### 2. Install Required Libraries
 
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-3. Open Jupyter Notebook
+### 3. Open Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-4. Run the notebooks sequentially.
+### 4. Run the Notebook
+
+Open `main.ipynb` and run all cells sequentially.
 
 ---
 
 ## Future Improvements
 
-- Build predictive credit risk models
-- Implement customer segmentation
-- Create interactive dashboards
-- Automate reporting and visualization
+* Build machine learning models for credit risk prediction
+* Implement customer segmentation
+* Develop interactive dashboards using Power BI or Tableau
+* Deploy the project as a web application
 
 ---
 
-This project demonstrates practical skills in data cleaning, exploratory data analysis, feature engineering, statistical analysis, and data visualization using Python.
+## Conclusion
+
+This project demonstrates practical knowledge of:
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Feature Engineering
+* Statistical Analysis
+
+using Python and popular data science libraries.
+
+---
